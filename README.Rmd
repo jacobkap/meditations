@@ -4,11 +4,10 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/meditations)](https://cran.r-project.org/package=meditations.png)
 [![Travis-CI Build Status](https://travis-ci.org/jacobkap/meditations.svg?branch=master)](https://travis-ci.org/jacobkap/meditations)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/jacobkap/meditations?branch=master&svg=true)](https://ci.appveyor.com/project/jacobkap/meditations)
 [![Coverage status](https://codecov.io/gh/jacobkap/meditations/branch/master/graph/badge.svg)](https://codecov.io/github/jacobkap/meditations?branch=master)
-[![](https://cranlogs.r-pkg.org/badges/meditations)](https://cran.rstudio.com/web/packages/meditations/index.html)
+
 
 # Overview
 

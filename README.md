@@ -1,14 +1,12 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-[![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/meditations)](https://cran.r-project.org/package=meditations.png)
 [![Travis-CI Build
 Status](https://travis-ci.org/jacobkap/meditations.svg?branch=master)](https://travis-ci.org/jacobkap/meditations)
 [![AppVeyor Build
 Status](https://ci.appveyor.com/api/projects/status/github/jacobkap/meditations?branch=master&svg=true)](https://ci.appveyor.com/project/jacobkap/meditations)
 [![Coverage
 status](https://codecov.io/gh/jacobkap/meditations/branch/master/graph/badge.svg)](https://codecov.io/github/jacobkap/meditations?branch=master)
-[![](https://cranlogs.r-pkg.org/badges/meditations)](https://cran.rstudio.com/web/packages/meditations/index.html)
 
 # Overview
 
@@ -34,7 +32,7 @@ random quote from the
 meditations::meditations()
 ```
 
-    ## [1] "All things are changing: and thou thyself art in continuous mutation and in a manner in continuous destruction, and the whole universe too."
+    ## [1] "Be thou erect, or be made erect.  Just as it is with the members in those bodies which are united in one, so it is with rational beings which exist separate, for they have been constituted for one co-operation. And the perception of this will be more apparent to thee, if thou often sayest to thyself that I am a member (melos) of the system of rational beings. But if (using the letter r) thou sayest that thou art a part (meros) thou dost not yet love men from thy heart; beneficence does not yet delight thee for its own sake; thou still doest it barely as a thing of propriety, and not yet as doing good to thyself."
 
 Choose a number between 1 and 507 (there are only 507 quotes) and it
 will print that specific
