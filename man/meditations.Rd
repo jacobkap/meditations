@@ -4,7 +4,10 @@
 \alias{meditations}
 \title{Get a random quote for Marcus Aurelius' book Meditations}
 \usage{
-meditations()
+meditations(number = NULL)
+}
+\arguments{
+\item{number}{The number(s) of the quotes you want from meditations_quotes. If NULL, returns random quote.}
 }
 \value{
 A string containing the quote.
@@ -14,4 +17,6 @@ Get a random quote for Marcus Aurelius' book Meditations
 }
 \examples{
 meditations()
+meditations(497)
+meditations(5)
 }
