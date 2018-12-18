@@ -6,7 +6,7 @@
 \title{All 507 quotes from Marcus Aurelius' book Meditations}
 \format{A data frame with 53940 rows and 10 variables:
 \describe{
-  \item{quote}{The text of the quote}
+  \item{quotes}{The text of the quote}
   ...
 }}
 \source{

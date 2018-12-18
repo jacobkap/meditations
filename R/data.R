@@ -6,7 +6,7 @@
 #'
 #' @format A data frame with 53940 rows and 10 variables:
 #' \describe{
-#'   \item{quote}{The text of the quote}
+#'   \item{quotes}{The text of the quote}
 #'   ...
 #' }
 #' @source \url{http://classics.mit.edu//Antoninus/meditations.1.one.html}
