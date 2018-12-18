@@ -14,6 +14,9 @@ test_that("only accepts values between 1 and 507", {
   expect_error(meditations(number = -1))
   expect_error(meditations(number = 507.5))
   expect_error(meditations(number = 100000000000000000000))
+  expect_error(meditations(number = c(0, 5)))
+  expect_error(meditations(number = -1:3))
+  expect_error(meditations(number = c("hello", 201:203)))
 })
 
 test_that("number between 1 and 507 works", {
@@ -22,4 +25,6 @@ test_that("number between 1 and 507 works", {
   expect_silent(meditations(number = 507))
   expect_silent(meditations())
   expect_silent(meditations(number = 200))
+  expect_silent(meditations(number = 200:205))
+  expect_silent(meditations(number = c(1, 3, 200)))
 })
