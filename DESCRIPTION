@@ -12,8 +12,10 @@ Suggests:
     testthat,
     covr,
     knitr,
-    rmarkdown
+    rmarkdown,
+    spelling
 RoxygenNote: 6.0.1
 URL: https://github.com/jacobkap/meditations
 BugReports: https://github.com/jacobkap/meditations/issues
 VignetteBuilder: knitr
+Language: en-US
