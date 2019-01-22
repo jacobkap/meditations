@@ -30,7 +30,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">meditations</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">1.0</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">1.0.1</span>
       </span>
     </div>
 
@@ -80,7 +80,7 @@
       <h1>Using meditations</h1>
                         <h4 class="author">Jacob Kaplan</h4>
             
-            <h4 class="date">2018-12-18</h4>
+            <h4 class="date">2019-01-22</h4>
       
       <small class="dont-index">Source: <a href="https://github.com/jacobkap/meditations/blob/master/vignettes/using_meditations.Rmd"><code>vignettes/using_meditations.Rmd</code></a></small>
       <div class="hidden name"><code>using_meditations.Rmd</code></div>
@@ -98,14 +98,14 @@
 <a href="#installation" class="anchor"></a>Installation</h2>
 <p>You can install meditations from github with:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="co"># install.packages("devtools")</span></a>
-<a class="sourceLine" id="cb1-2" data-line-number="2">devtools<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/devtools/topics/install_github">install_github</a></span>(<span class="st">"jacobkap/meditations"</span>)</a></code></pre></div>
+<a class="sourceLine" id="cb1-2" data-line-number="2">devtools<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/devtools/topics/reexports">install_github</a></span>(<span class="st">"jacobkap/meditations"</span>)</a></code></pre></div>
 </div>
 <div id="example" class="section level2">
 <h2 class="hasAnchor">
 <a href="#example" class="anchor"></a>Example</h2>
 <p>This is how to use this simple package. <code><a href="../reference/meditations.html">meditations()</a></code> will print a random quote from the book.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1">meditations<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/meditations/topics/meditations">meditations</a></span>()</a>
-<a class="sourceLine" id="cb2-2" data-line-number="2"><span class="co">#&gt; [1] "Everything harmonizes with me, which is harmonious to thee, O Universe. Nothing for me is too early nor too late, which is in due time for thee. Everything is fruit to me which thy seasons bring, O Nature: from thee are all things, in thee are all things, to thee all things return. The poet says, Dear city of Cecrops; and wilt not thou say, Dear city of Zeus?"</span></a></code></pre></div>
+<a class="sourceLine" id="cb2-2" data-line-number="2"><span class="co">#&gt; [1] "Always remember the saying of Heraclitus, that the death of earth is to become water, and the death of water is to become air, and the death of air is to become fire, and reversely. And think too of him who forgets whither the way leads, and that men quarrel with that with which they are most constantly in communion, the reason which governs the universe; and the things which daily meet with seem to them strange: and consider that we ought not to act and speak as if we were asleep, for even in sleep we seem to act and speak; and that we ought not, like children who learn from their parents, simply to act and speak as we have been taught."</span></a></code></pre></div>
 <p>Choose a number between 1 and 507 (there are only 507 quotes) and it will print that specific quote(s).</p>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" data-line-number="1">meditations<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/meditations/topics/meditations">meditations</a></span>(<span class="dv">5</span>)</a>
 <a class="sourceLine" id="cb3-2" data-line-number="2"><span class="co">#&gt; [1] "From my governor, to be neither of the green nor of the blue party at the games in the Circus, nor a partizan either of the Parmularius or the Scutarius at the gladiators' fights; from him too I learned endurance of labour, and to want little, and to work with my own hands, and not to meddle with other people's affairs, and not to be ready to listen to slander."</span></a></code></pre></div>

@@ -5,11 +5,11 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Prints a random quote from Marcus Aurelius' book Meditations • meditations</title>
+<title>Prints a Random Quote from Marcus Aurelius' Book Meditations • meditations</title>
 <!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script><!-- Bootstrap --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js" integrity="sha256-FiZwavyI2V6+EXO1U+xzLG3IKldpiTFf3153ea9zikQ=" crossorigin="anonymous"></script><!-- sticky kit --><script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-kit/1.1.3/sticky-kit.min.js" integrity="sha256-c4Rlo1ZozqTPE2RLuvbusY3+SU1pQaJC0TjuhygMipw=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
-<script src="pkgdown.js"></script><meta property="og:title" content="Prints a random quote from Marcus Aurelius' book Meditations">
+<script src="pkgdown.js"></script><meta property="og:title" content="Prints a Random Quote from Marcus Aurelius' Book Meditations">
 <meta property="og:description" content="Prints a random quote from Marcus Aurelius' book Meditations.">
 <meta name="twitter:card" content="summary">
 <!-- mathjax --><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/config/TeX-AMS-MML_HTMLorMML.js" integrity="sha256-84DKXVJXs0/F8OTMzX4UR909+jtl4G7SPypPavF+GfA=" crossorigin="anonymous"></script><!--[if lt IE 9]>
@@ -30,7 +30,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">meditations</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">1.0</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">1.0.1</span>
       </span>
     </div>
 
@@ -91,14 +91,14 @@
 <a href="#installation" class="anchor"></a>Installation</h2>
 <p>You can install meditations from github with:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="co"># install.packages("devtools")</span></a>
-<a class="sourceLine" id="cb1-2" data-line-number="2">devtools<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/devtools/topics/install_github">install_github</a></span>(<span class="st">"jacobkap/meditations"</span>)</a></code></pre></div>
+<a class="sourceLine" id="cb1-2" data-line-number="2">devtools<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/devtools/topics/reexports">install_github</a></span>(<span class="st">"jacobkap/meditations"</span>)</a></code></pre></div>
 </div>
 <div id="example" class="section level2">
 <h2 class="hasAnchor">
 <a href="#example" class="anchor"></a>Example</h2>
 <p>This is how to use this simple package. <code><a href="reference/meditations.html">meditations()</a></code> will print a random quote from the book.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1">meditations<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/meditations/topics/meditations">meditations</a></span>()</a></code></pre></div>
-<pre><code>## [1] "Take me and cast me where thou wilt; for there I shall keep my divine part tranquil, that is, content, if it can feel and act conformably to its proper constitution. Is this change of place sufficient reason why my soul should be unhappy and worse than it was, depressed, expanded, shrinking, affrighted? And what wilt thou find which is sufficient reason for this?"</code></pre>
+<pre><code>## [1] "Like this pig also is he who on his bed in silence laments the bonds in which we are held. And consider that only to the rational animal is it given to follow voluntarily what happens; but simply to follow is a necessity imposed on all."</code></pre>
 <p>Choose a number between 1 and 507 (there are only 507 quotes) and it will print that specific quote(s).</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" data-line-number="1">meditations<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/meditations/topics/meditations">meditations</a></span>(<span class="dv">5</span>)</a></code></pre></div>
 <pre><code>## [1] "From my governor, to be neither of the green nor of the blue party at the games in the Circus, nor a partizan either of the Parmularius or the Scutarius at the gladiators' fights; from him too I learned endurance of labour, and to want little, and to work with my own hands, and not to meddle with other people's affairs, and not to be ready to listen to slander."</code></pre>
@@ -112,6 +112,8 @@
     <div class="links">
 <h2>Links</h2>
 <ul class="list-unstyled">
+<li>Download from CRAN at <br><a href="https://cloud.r-project.org/package=meditations">https://​cloud.r-project.org/​package=meditations</a>
+</li>
 <li>Browse source code at <br><a href="https://github.com/jacobkap/meditations">https://​github.com/​jacobkap/​meditations</a>
 </li>
 <li>Report a bug at <br><a href="https://github.com/jacobkap/meditations/issues">https://​github.com/​jacobkap/​meditations/​issues</a>
@@ -121,9 +123,7 @@
 <div class="license">
 <h2>License</h2>
 <ul class="list-unstyled">
-<li>
-<a href="https://opensource.org/licenses/mit-license.php">MIT</a> + file <a href="LICENSE-text.html">LICENSE</a>
-</li>
+<li>GPL</li>
 </ul>
 </div>
 <div class="developers">
@@ -136,11 +136,9 @@
       <div class="dev-status">
 <h2>Dev status</h2>
 <ul class="list-unstyled">
-<li><a href="https://cran.r-project.org/package=meditations.png"><img src="http://www.r-pkg.org/badges/version/meditations" alt="CRAN_Status_Badge"></a></li>
 <li><a href="https://travis-ci.org/jacobkap/meditations"><img src="https://travis-ci.org/jacobkap/meditations.svg?branch=master" alt="Travis-CI Build Status"></a></li>
 <li><a href="https://ci.appveyor.com/project/jacobkap/meditations"><img src="https://ci.appveyor.com/api/projects/status/github/jacobkap/meditations?branch=master&amp;svg=true" alt="AppVeyor Build Status"></a></li>
 <li><a href="https://codecov.io/github/jacobkap/meditations?branch=master"><img src="https://codecov.io/gh/jacobkap/meditations/branch/master/graph/badge.svg" alt="Coverage status"></a></li>
-<li><a href="https://cran.rstudio.com/web/packages/meditations/index.html"><img src="https://cranlogs.r-pkg.org/badges/meditations"></a></li>
 </ul>
 </div>
 </div>
