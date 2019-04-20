@@ -90,20 +90,20 @@
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
 <p>You can install meditations from github with:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="co"># install.packages("devtools")</span></a>
-<a class="sourceLine" id="cb1-2" data-line-number="2">devtools<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/devtools/topics/reexports">install_github</a></span>(<span class="st">"jacobkap/meditations"</span>)</a></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># install.packages("devtools")</span>
+devtools<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/devtools/topics/reexports">install_github</a></span>(<span class="st">"jacobkap/meditations"</span>)</code></pre></div>
 </div>
 <div id="example" class="section level2">
 <h2 class="hasAnchor">
 <a href="#example" class="anchor"></a>Example</h2>
 <p>This is how to use this simple package. <code><a href="reference/meditations.html">meditations()</a></code> will print a random quote from the book.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" data-line-number="1">meditations<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/meditations/topics/meditations">meditations</a></span>()</a></code></pre></div>
-<pre><code>## [1] "Like this pig also is he who on his bed in silence laments the bonds in which we are held. And consider that only to the rational animal is it given to follow voluntarily what happens; but simply to follow is a necessity imposed on all."</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">meditations<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/meditations/topics/meditations">meditations</a></span>()</code></pre></div>
+<pre><code>## [1] "Whatever any one does or says, I must be good, just as if the gold, or the emerald, or the purple were always saying this, Whatever any one does or says, I must be emerald and keep my colour."</code></pre>
 <p>Choose a number between 1 and 507 (there are only 507 quotes) and it will print that specific quote(s).</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" data-line-number="1">meditations<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/meditations/topics/meditations">meditations</a></span>(<span class="dv">5</span>)</a></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">meditations<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/meditations/topics/meditations">meditations</a></span>(<span class="dv">5</span>)</code></pre></div>
 <pre><code>## [1] "From my governor, to be neither of the green nor of the blue party at the games in the Circus, nor a partizan either of the Parmularius or the Scutarius at the gladiators' fights; from him too I learned endurance of labour, and to want little, and to work with my own hands, and not to meddle with other people's affairs, and not to be ready to listen to slander."</code></pre>
 <p>You can get the vector of all 507 quotes by</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" data-line-number="1"><span class="kw"><a href="https://www.rdocumentation.org/packages/utils/topics/data">data</a></span>(<span class="st">"meditations_quotes"</span>)</a></code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="https://www.rdocumentation.org/packages/utils/topics/data">data</a></span>(<span class="st">"meditations_quotes"</span>)</code></pre></div>
 </div>
 </div>
   </div>
@@ -136,9 +136,11 @@
       <div class="dev-status">
 <h2>Dev status</h2>
 <ul class="list-unstyled">
+<li><a href="https://cran.r-project.org/package=meditations.png"><img src="https://www.r-pkg.org/badges/version/meditations" alt="CRAN_Status_Badge"></a></li>
 <li><a href="https://travis-ci.org/jacobkap/meditations"><img src="https://travis-ci.org/jacobkap/meditations.svg?branch=master" alt="Travis-CI Build Status"></a></li>
 <li><a href="https://ci.appveyor.com/project/jacobkap/meditations"><img src="https://ci.appveyor.com/api/projects/status/github/jacobkap/meditations?branch=master&amp;svg=true" alt="AppVeyor Build Status"></a></li>
 <li><a href="https://codecov.io/github/jacobkap/meditations?branch=master"><img src="https://codecov.io/gh/jacobkap/meditations/branch/master/graph/badge.svg" alt="Coverage status"></a></li>
+<li><a href="https://cran.rstudio.com/web/packages/meditations/index.html"><img src="https://cranlogs.r-pkg.org/badges/meditations"></a></li>
 </ul>
 </div>
 </div>
