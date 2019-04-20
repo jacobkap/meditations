@@ -40,5 +40,5 @@ meditations::meditations()
 Choose a number between 1 and 507 (there are only 507 quotes) and it will print that specific quote(s).
 
 ```{r}
-meditations::meditations(5)
+meditations::meditations(263)
 ```
