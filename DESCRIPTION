@@ -1,7 +1,7 @@
 Package: meditations
 Title: Prints a Random Quote from Marcus Aurelius' Book Meditations
 Version: 1.0.1
-Authors@R: person("Jacob", "Kaplan", email = "jkkaplan6@gmail.com", role = c("aut", "cre"))
+Authors@R: person("Jacob", "Kaplan",    email = "jkkaplan6@gmail.com", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-0601-0387"))
 Description: Prints a random quote from Marcus Aurelius' book Meditations.
 License: GPL
 Encoding: UTF-8
