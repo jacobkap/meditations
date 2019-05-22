@@ -10,3 +10,4 @@
 ^README-.*\.png$
 ^codecov\.yml$
 ^data-raw$
+^LICENSE\.md$
