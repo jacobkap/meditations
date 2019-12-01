@@ -29,7 +29,7 @@ clean_data <- function() {
 
 #' All 507 quotes from Marcus Aurelius' book Meditations
 #'
-#' A dataset containing the complete list of quotes of Marcus Aurelius from Meditations
+#' A data set containing the complete list of quotes of Marcus Aurelius from Meditations
 #'
 #' @format A data frame with 507 rows and 1 variable:
 #' \describe{

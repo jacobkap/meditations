@@ -16,6 +16,6 @@
 meditations_quotes
 }
 \description{
-A dataset containing the complete list of quotes of Marcus Aurelius from Meditations
+A data set containing the complete list of quotes of Marcus Aurelius from Meditations
 }
 \keyword{datasets}
