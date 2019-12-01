@@ -19,9 +19,9 @@ meditations <- function(number = NULL) {
   }
 
   if (is.null(number)) {
-    return(sample(meditations_quotes$quotes, 1))
+    return(sample(meditations::meditations_quotes$quotes, 1))
   } else {
-    return(meditations_quotes$quotes[number])
+    return(meditations::meditations_quotes$quotes[number])
   }
 }
 

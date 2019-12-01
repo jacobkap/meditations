@@ -4,7 +4,7 @@
 \name{meditations_quotes}
 \alias{meditations_quotes}
 \title{All 507 quotes from Marcus Aurelius' book Meditations}
-\format{A data frame with 53940 rows and 10 variables:
+\format{A data frame with 507 rows and 1 variable:
 \describe{
   \item{quotes}{The text of the quote}
   ...
